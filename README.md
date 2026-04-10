@@ -4,7 +4,7 @@ A fun stock market personality test.
 
 ## 在线测试
 
-https://stock-trading-test.vercel.app/
+https://stock-sbti.vercel.app/
 
 ## 股票韭菜版人格类型
 
