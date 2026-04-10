@@ -2,6 +2,10 @@
 
 A fun stock market personality test.
 
+## 在线测试
+
+https://stock-trading-test.vercel.app/
+
 ## 股票韭菜版人格类型
 
 - 韭菜 - 标准韭菜
