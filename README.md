@@ -1,6 +1,6 @@
-# 股票韭菜人格测试
+# 股票韭菜SBTI测试
 
-A fun stock market personality test inspired by SBTI.
+A fun stock market personality test.
 
 ## 股票韭菜版人格类型
 
@@ -30,11 +30,3 @@ A fun stock market personality test inspired by SBTI.
 - 研报复读机 - 研报依赖者
 - 财务自由梦 - 梦想家
 - 韭菜合唱团 - 群体韭菜
-
-## 原作者
-
-B站@蛆肉儿串儿
-
-## 改编
-
-股票韭菜版
