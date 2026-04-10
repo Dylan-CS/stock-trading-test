@@ -1498,16 +1498,10 @@
       const bestNormal = ranked[0];
       const drunkTriggered = getDrunkTriggered();
       const answeredCount = Object.keys(app.answers).length;
-      const isLazy = answeredCount <= 2;
+      const isLazy = answeredCount <= 10;
       let finalType, modeKicker = '你的主类型', badge = `匹配度 ${bestNormal.similarity}% · 精准命中 ${bestNormal.exact}/15 维`, sub = '维度命中度较高，当前结果可视为你的第一韭菜画像。', special = false, secondaryType = null;
 
       if (isLazy) {
-        finalType = TYPE_LIBRARY['懒惰者'];
-        modeKicker = '懒惰专属人格';
-        badge = '系统判定 · 懒到极致';
-        sub = '只答了' + answeredCount + '道题就敢提交？你是懒到骨子里了。';
-        special = true;
-      } else if (isLazy) {
         finalType = TYPE_LIBRARY['懒惰者'];
         modeKicker = '懒惰专属人格';
         badge = '系统判定 · 懒到极致';
